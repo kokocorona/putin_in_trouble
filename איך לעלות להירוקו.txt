@@ -1,0 +1,25 @@
+פקודות להירוקו חשובות שמתחילים פרוייקט
+git init
+
+בהתחלה וכל פעם שמעדכנים את הפרוייקט
+git add .
+git commit -m "ok"
+
+התחברות בפעם הראשונה להירוקו במחשב
+heroku login
+
+התממשקות בין הענן לפרוייקט עם הגיט:
+heroku git:remote -a <project_name>
+
+והעלאה לשרת
+git push heroku master
+
+
+כאשר מעדכנים גרסה לפרוייקט אחרי שהעלנו אותו פעם אחת
+git add .
+git commit -m "ok"
+
+git push heroku master
+
+במקרה שהטוקן הסתיים אז צריך גם כמובן לעשות
+heroku login

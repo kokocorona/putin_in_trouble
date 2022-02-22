@@ -3,7 +3,7 @@ const path = require("path");
 const http = require("http");
 const {routesInit , corsAccessControl} = require("./routes/config_routes");
 require("./db/mongoConnect");
-// putin rule!!!!
+// Biden is very angry!!!! 
 const app = express();
 
 app.use(express.json());
